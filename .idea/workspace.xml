@@ -2,54 +2,434 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26441741-9d29-4ef9-a2fe-e307d9391987" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/account/account_inactive.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/account/base.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/account/email.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/account/email/email_confirmation_message.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/account/email/email_confirmation_signup_message.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/account/email/email_confirmation_signup_subject.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/account/email/email_confirmation_subject.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/account/email/password_reset_key_message.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/account/email/password_reset_key_subject.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/account/email_confirm.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/account/login.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/account/logout.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/account/messages/cannot_delete_primary_email.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/account/messages/email_confirmation_sent.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/account/messages/email_confirmed.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/account/messages/email_deleted.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/account/messages/logged_in.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/account/messages/logged_out.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/account/messages/password_changed.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/account/messages/password_set.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/account/messages/primary_email_set.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/account/messages/unverified_primary_email.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/account/password_change.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/account/password_reset.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/account/password_reset_done.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/account/password_reset_from_key.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/account/password_reset_from_key_done.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/account/password_set.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/account/signup.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/account/signup_closed.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/account/snippets/already_logged_in.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/account/verification_sent.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/account/verified_email_required.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/base.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/blog/add_comment_to_post.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/model/templates/blog/index.html" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/account/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/account/adapter.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/account/admin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/account/app_settings.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/account/apps.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/account/auth_backends.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/account/decorators.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/account/forms.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/account/management/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/account/management/commands/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/account/management/commands/account_emailconfirmationmigration.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/account/management/commands/account_unsetmultipleprimaryemails.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/account/managers.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/account/migrations/0001_initial.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/account/migrations/0002_email_max_length.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/account/migrations/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/account/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/account/signals.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/account/templatetags/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/account/templatetags/account.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/account/templatetags/account_tags.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/account/tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/account/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/account/utils.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/account/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/adapter.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/admin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/app_settings.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/apps.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/authentication_error.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/base.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/connections.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/fields.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/forms.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/helpers.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/login_cancelled.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/messages/account_connected.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/messages/account_connected_other.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/messages/account_disconnected.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/migrations/0001_initial.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/migrations/0002_token_max_lengths.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/migrations/0003_extra_data_default_dict.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/migrations/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/amazon/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/amazon/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/amazon/provider.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/amazon/tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/amazon/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/amazon/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/angellist/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/angellist/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/angellist/provider.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/angellist/tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/angellist/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/angellist/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/baidu/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/baidu/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/baidu/provider.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/baidu/tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/baidu/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/baidu/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/base.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/basecamp/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/basecamp/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/basecamp/provider.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/basecamp/tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/basecamp/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/basecamp/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/bitbucket/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/bitbucket/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/bitbucket/provider.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/bitbucket/tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/bitbucket/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/bitbucket/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/bitbucket_oauth2/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/bitbucket_oauth2/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/bitbucket_oauth2/provider.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/bitbucket_oauth2/tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/bitbucket_oauth2/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/bitbucket_oauth2/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/bitly/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/bitly/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/bitly/provider.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/bitly/tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/bitly/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/bitly/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/coinbase/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/coinbase/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/coinbase/provider.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/coinbase/tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/coinbase/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/coinbase/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/digitalocean/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/digitalocean/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/digitalocean/provider.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/digitalocean/tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/digitalocean/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/digitalocean/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/douban/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/douban/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/douban/provider.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/douban/tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/douban/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/douban/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/draugiem/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/draugiem/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/draugiem/provider.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/draugiem/tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/draugiem/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/draugiem/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/dropbox/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/dropbox/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/dropbox/provider.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/dropbox/tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/dropbox/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/dropbox/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/dropbox_oauth2/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/dropbox_oauth2/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/dropbox_oauth2/provider.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/dropbox_oauth2/tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/dropbox_oauth2/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/dropbox_oauth2/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/edmodo/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/edmodo/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/edmodo/provider.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/edmodo/tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/edmodo/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/edmodo/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/evernote/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/evernote/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/evernote/provider.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/evernote/tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/evernote/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/evernote/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/facebook/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/facebook/data/FacebookLocales.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/facebook/forms.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/facebook/locale.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/facebook/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/facebook/provider.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/facebook/south_migrations/0001_initial.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/facebook/south_migrations/0002_auto__add_facebookaccesstoken__add_unique_facebookaccesstoken_app_acco.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/facebook/south_migrations/0003_tosocialaccount.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/facebook/south_migrations/0004_auto__del_facebookapp__del_facebookaccesstoken__del_unique_facebookacc.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/facebook/south_migrations/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/facebook/static/facebook/js/fbconnect.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/facebook/templates/facebook/fbconnect.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/facebook/tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/facebook/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/facebook/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/feedly/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/feedly/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/feedly/provider.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/feedly/tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/feedly/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/feedly/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/flickr/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/flickr/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/flickr/provider.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/flickr/tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/flickr/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/flickr/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/foursquare/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/foursquare/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/foursquare/provider.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/foursquare/tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/foursquare/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/foursquare/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/fxa/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/fxa/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/fxa/provider.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/fxa/tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/fxa/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/fxa/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/github/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/github/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/github/provider.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/github/tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/github/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/github/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/gitlab/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/gitlab/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/gitlab/provider.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/gitlab/tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/gitlab/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/gitlab/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/google/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/google/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/google/provider.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/google/tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/google/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/google/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/hubic/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/hubic/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/hubic/provider.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/hubic/tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/hubic/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/hubic/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/instagram/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/instagram/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/instagram/provider.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/instagram/tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/instagram/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/instagram/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/linkedin/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/linkedin/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/linkedin/provider.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/linkedin/tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/linkedin/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/linkedin/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/linkedin_oauth2/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/linkedin_oauth2/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/linkedin_oauth2/provider.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/linkedin_oauth2/tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/linkedin_oauth2/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/linkedin_oauth2/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/mailru/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/mailru/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/mailru/provider.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/mailru/tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/mailru/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/mailru/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/oauth/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/oauth/client.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/oauth/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/oauth/provider.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/oauth/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/oauth/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/oauth2/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/oauth2/client.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/oauth2/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/oauth2/provider.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/oauth2/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/oauth2/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/odnoklassniki/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/odnoklassniki/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/odnoklassniki/provider.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/odnoklassniki/tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/odnoklassniki/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/odnoklassniki/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/openid/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/openid/admin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/openid/forms.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/openid/migrations/0001_initial.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/openid/migrations/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/openid/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/openid/provider.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/openid/south_migrations/0001_initial.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/openid/south_migrations/0002_tosocialaccount.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/openid/south_migrations/0003_auto__del_openidaccount.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/openid/south_migrations/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/openid/tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/openid/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/openid/utils.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/openid/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/orcid/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/orcid/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/orcid/provider.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/orcid/tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/orcid/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/orcid/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/paypal/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/paypal/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/paypal/provider.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/paypal/tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/paypal/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/paypal/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/persona/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/persona/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/persona/provider.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/persona/templates/persona/auth.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/persona/tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/persona/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/persona/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/pinterest/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/pinterest/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/pinterest/provider.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/pinterest/tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/pinterest/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/pinterest/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/reddit/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/reddit/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/reddit/provider.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/reddit/tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/reddit/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/reddit/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/robinhood/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/robinhood/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/robinhood/provider.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/robinhood/tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/robinhood/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/robinhood/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/shopify/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/shopify/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/shopify/provider.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/shopify/tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/shopify/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/shopify/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/soundcloud/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/soundcloud/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/soundcloud/provider.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/soundcloud/tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/soundcloud/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/soundcloud/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/spotify/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/spotify/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/spotify/provider.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/spotify/tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/spotify/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/spotify/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/stackexchange/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/stackexchange/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/stackexchange/provider.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/stackexchange/tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/stackexchange/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/stackexchange/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/stripe/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/stripe/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/stripe/provider.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/stripe/tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/stripe/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/stripe/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/tumblr/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/tumblr/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/tumblr/provider.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/tumblr/tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/tumblr/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/tumblr/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/twitch/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/twitch/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/twitch/provider.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/twitch/tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/twitch/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/twitch/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/twitter/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/twitter/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/twitter/provider.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/twitter/south_migrations/0001_initial.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/twitter/south_migrations/0002_snowflake.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/twitter/south_migrations/0003_tosocialaccount.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/twitter/south_migrations/0004_auto__del_twitteraccount__del_twitterapp.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/twitter/south_migrations/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/twitter/tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/twitter/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/twitter/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/untappd/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/untappd/client.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/untappd/provider.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/untappd/tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/untappd/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/untappd/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/vimeo/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/vimeo/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/vimeo/provider.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/vimeo/tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/vimeo/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/vimeo/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/vk/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/vk/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/vk/provider.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/vk/tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/vk/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/vk/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/weibo/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/weibo/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/weibo/provider.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/weibo/tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/weibo/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/weibo/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/windowslive/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/windowslive/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/windowslive/provider.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/windowslive/tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/windowslive/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/windowslive/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/xing/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/xing/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/xing/provider.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/xing/tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/xing/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/providers/xing/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/signals.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/signup.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/snippets/login_extra.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/snippets/provider_list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/south_migrations/0001_initial.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/south_migrations/0002_genericmodels.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/south_migrations/0003_auto__add_unique_socialaccount_uid_provider.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/south_migrations/0004_add_sites.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/south_migrations/0005_set_sites.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/south_migrations/0006_auto__del_field_socialapp_site.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/south_migrations/0007_auto__add_field_socialapp_client_id.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/south_migrations/0008_client_id.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/south_migrations/0009_auto__add_field_socialtoken_expires_at.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/south_migrations/0010_auto__chg_field_socialtoken_token.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/south_migrations/0011_auto__chg_field_socialtoken_token.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/south_migrations/0012_auto__chg_field_socialtoken_token_secret.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/south_migrations/0013_auto__chg_field_socialaccount_uid__chg_field_socialapp_secret__chg_fie.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/south_migrations/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/templatetags/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/templatetags/socialaccount.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/templatetags/socialaccount_tags.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/templates/socialaccount/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/admin.py" afterPath="$PROJECT_DIR$/model/admin.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/forms.py" afterPath="$PROJECT_DIR$/model/forms.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/models.py" afterPath="$PROJECT_DIR$/model/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/templates/blog/post_detail.html" afterPath="$PROJECT_DIR$/model/templates/blog/post_detail.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/templates/account/base.html" afterPath="$PROJECT_DIR$/model/templates/account/base.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/templates/account/email.html" afterPath="$PROJECT_DIR$/model/templates/account/email.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/templates/account/email_confirm.html" afterPath="$PROJECT_DIR$/model/templates/account/email_confirm.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/templates/account/login.html" afterPath="$PROJECT_DIR$/model/templates/account/login.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/templates/account/logout.html" afterPath="$PROJECT_DIR$/model/templates/account/logout.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/templates/account/password_change.html" afterPath="$PROJECT_DIR$/model/templates/account/password_change.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/templates/account/password_reset.html" afterPath="$PROJECT_DIR$/model/templates/account/password_reset.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/templates/account/password_reset_from_key.html" afterPath="$PROJECT_DIR$/model/templates/account/password_reset_from_key.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/templates/account/password_set.html" afterPath="$PROJECT_DIR$/model/templates/account/password_set.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/templates/account/signup.html" afterPath="$PROJECT_DIR$/model/templates/account/signup.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/templates/base.html" afterPath="$PROJECT_DIR$/model/templates/base.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/templates/blog/add_comment_to_post.html" afterPath="$PROJECT_DIR$/model/templates/blog/add_comment_to_post.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/templates/blog/post_edit.html" afterPath="$PROJECT_DIR$/model/templates/blog/post_edit.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/templates/blog/post_list.html" afterPath="$PROJECT_DIR$/model/templates/blog/post_list.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/urls.py" afterPath="$PROJECT_DIR$/model/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/views.py" afterPath="$PROJECT_DIR$/model/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/blog.css" afterPath="$PROJECT_DIR$/static/css/blog.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sztsite/settings.py" afterPath="$PROJECT_DIR$/sztsite/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sztsite/urls.py" afterPath="$PROJECT_DIR$/sztsite/urls.py" />
     </list>
     <ignored path="SZT.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -73,11 +453,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="post_list.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/model/templates/blog/post_list.html">
+      <file leaf-file-name="post_detail.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/model/templates/blog/post_detail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+            <state relative-caret-position="272">
+              <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -86,52 +466,20 @@
       <file leaf-file-name="post_edit.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model/templates/blog/post_edit.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="24" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="post_detail.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model/templates/blog/post_detail.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="35" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="35" />
+            <state relative-caret-position="170">
+              <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
               <folding>
-                <element signature="e#0#32#0" expanded="true" />
+                <marker date="1484468632828" expanded="true" signature="119:264" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model/views.py">
+      <file leaf-file-name="post_list.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/model/templates/blog/post_list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="797">
-              <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#64#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="add_comment_to_post.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model/templates/blog/add_comment_to_post.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+            <state relative-caret-position="391">
+              <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -140,28 +488,66 @@
       <file leaf-file-name="blog.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/css/blog.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+            <state relative-caret-position="533">
+              <caret line="46" column="1" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myvenv/Lib/site-packages/allauth/templates/base.html">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/model/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="204">
+              <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+              <folding>
+                <element signature="e#0#64#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model/templates/base.html">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/model/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+            <state relative-caret-position="204">
+              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="forms.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/model/forms.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+              <folding>
+                <element signature="e#0#24#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/model/templates/account/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding>
+                <element signature="n#div#1;n#div#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="add_comment_to_post.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/model/templates/blog/add_comment_to_post.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="25" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -170,8 +556,8 @@
       <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="21" column="58" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="58" />
+            <state relative-caret-position="204">
+              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -187,20 +573,22 @@
       <list>
         <option value="$PROJECT_DIR$/sztsite/urls.py" />
         <option value="$PROJECT_DIR$/model/templates/blog/index.html" />
-        <option value="$PROJECT_DIR$/model/templates/blog/post_edit.html" />
         <option value="$PROJECT_DIR$/model/templates/blog/base.html" />
-        <option value="$PROJECT_DIR$/model/templates/account/login.html" />
-        <option value="$PROJECT_DIR$/sztsite/settings.py" />
         <option value="$PROJECT_DIR$/model/admin.py" />
-        <option value="$PROJECT_DIR$/model/forms.py" />
-        <option value="$PROJECT_DIR$/model/urls.py" />
-        <option value="$PROJECT_DIR$/model/templates/blog/add_comment_to_post.html" />
-        <option value="$PROJECT_DIR$/model/views.py" />
-        <option value="$PROJECT_DIR$/model/models.py" />
-        <option value="$PROJECT_DIR$/static/css/blog.css" />
-        <option value="$PROJECT_DIR$/model/templates/base.html" />
         <option value="$PROJECT_DIR$/model/templates/blog/post_detail.html" />
+        <option value="$PROJECT_DIR$/model/templates/base.html" />
+        <option value="$PROJECT_DIR$/sztsite/settings.py" />
+        <option value="$PROJECT_DIR$/model/templates/account/signup.html" />
+        <option value="$PROJECT_DIR$/model/templates/account/password_reset.html" />
+        <option value="$PROJECT_DIR$/model/templates/account/login.html" />
+        <option value="$PROJECT_DIR$/model/templates/blog/add_comment_to_post.html" />
+        <option value="$PROJECT_DIR$/model/templates/blog/post_edit.html" />
+        <option value="$PROJECT_DIR$/model/models.py" />
+        <option value="$PROJECT_DIR$/model/forms.py" />
+        <option value="$PROJECT_DIR$/static/css/blog.css" />
         <option value="$PROJECT_DIR$/model/templates/blog/post_list.html" />
+        <option value="$PROJECT_DIR$/model/urls.py" />
+        <option value="$PROJECT_DIR$/model/views.py" />
       </list>
     </option>
   </component>
@@ -256,106 +644,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="SZT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SZT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SZT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sztsite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SZT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SZT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SZT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SZT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="myvenv" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SZT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SZT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SZT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SZT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SZT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SZT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blog" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -653,7 +941,7 @@
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947807" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30167013" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -673,6 +961,27 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947807" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Concurrent Activities Diagram" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24123274" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -706,16 +1015,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sztsite/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="2" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="2" />
-          <folding>
-            <element signature="e#641#682#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/model/templates/accounts/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="765">
@@ -740,14 +1039,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sztsite/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="37" column="12" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/model/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -755,52 +1046,6 @@
           <folding>
             <element signature="e#0#32#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#24#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="35" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/templates/blog/post_edit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="24" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="797">
-          <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#64#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="21" column="58" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="58" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -812,43 +1057,159 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/blog.css">
+    <entry file="file://$PROJECT_DIR$/model/templates/socialaccount/messages/account_connected.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/templates/blog/add_comment_to_post.html">
+    <entry file="file://$PROJECT_DIR$/model/templates/socialaccount/snippets/provider_list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        <state relative-caret-position="357">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/model/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+        <state relative-caret-position="1085">
+          <caret line="79" column="31" selection-start-line="79" selection-start-column="31" selection-end-line="79" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sztsite/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="2" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="2" />
+          <folding>
+            <element signature="e#641#682#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/templates/account/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sztsite/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/templates/account/signup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/templates/account/password_reset.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/templates/account/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/templates/blog/post_edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+          <folding>
+            <marker date="1484468632828" expanded="true" signature="119:264" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/templates/blog/add_comment_to_post.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/blog.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="533">
+          <caret line="46" column="1" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/model/templates/blog/post_detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+        <state relative-caret-position="272">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/model/templates/blog/post_list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+        <state relative-caret-position="391">
+          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#64#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

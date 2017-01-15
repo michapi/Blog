@@ -32,12 +32,18 @@ h1, h2, h3, h4 {
     text-decoration: none;
 }
 
+
+
 .post {
     margin-bottom: 70px;
 }
 
-.post h1 a, .post h1 a:visited {
+.post, .post h1 a:visited {
     color: #000000;
+}
+
+.post.post-awarded h1 i{
+    color: yellow;
 }
 
 .comment {
@@ -47,3 +53,16 @@ h1, h2, h3, h4 {
 .navbar-login{
     margin:  0 15px;
 }
+
+.primaryAction, button{
+    padding: 10px;
+}
+
+.primaryAction{
+    margin: 0 10px;
+}
+
+.navbar{
+    border-radius: 0px;
+}
+
